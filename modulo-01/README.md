@@ -97,6 +97,12 @@ Renomear o container
 docker container rename <container-id|container-name> <new_name>
 ```
 
+## Analisando o comando ```docker container commit```
+Criar uma nova imagem a partir de um container modificado.
+```
+docker container commit -m "commit message" <container-id>
+```
+
 ## Conhecendo mais alguns comandos
 Remover todos os containers parados
 ```
@@ -115,3 +121,4 @@ Inicializar um container com volume personalizado
 ```
 docker container run -v <path-no-host>:<path-no-container> <image>
 ```
+
