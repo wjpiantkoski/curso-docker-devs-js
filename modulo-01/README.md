@@ -53,3 +53,18 @@ docker container <command> <container-id>
 ```
 docker container <command> <container-name>
 ```
+
+Executar um container que está parado
+```
+docker container start <container-id|container-name>
+```
+
+Exibir detalhes de configuração de um container
+```
+docker container inspect <container-id|container-name>
+```
+
+Exibir estatisticas dos containers que estão rodando
+```
+docker container stats
+```
