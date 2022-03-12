@@ -87,7 +87,12 @@ docker container attach <container-id|container-name>
 
 # Analisando o comando ```docker container exec```
 Roda um comando em um container que já está rodando
-
 ```
 docker container exec <container-id|container-name> <command>
+```
+
+# Analisando o comando ```docker container rename```
+Renomear o container
+```
+docker container rename <container-id|container-name> <new_name>
 ```
