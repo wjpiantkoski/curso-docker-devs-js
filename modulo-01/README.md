@@ -68,3 +68,20 @@ Exibir estatisticas dos containers que estão rodando
 ```
 docker container stats
 ```
+
+# Analisando o comando ```docker container run```
+## Requisitos da aula
+```
+docker pull ubuntu
+```
+
+Adicionando opções para que o container permaneça disponível para receber interações
+```
+docker container run -it ubuntu /bin/bash
+```
+
+Voltar a interagir com container que está em background
+```
+docker container attach <container-id|container-name>
+```
+
