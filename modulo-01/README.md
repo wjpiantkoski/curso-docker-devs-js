@@ -69,8 +69,8 @@ Exibir estatisticas dos containers que estão rodando
 docker container stats
 ```
 
-# Analisando o comando ```docker container run```
-## Requisitos da aula
+## Analisando o comando ```docker container run```
+### Requisitos da aula
 ```
 docker pull ubuntu
 ```
@@ -85,13 +85,13 @@ Voltar a interagir com container que está em background
 docker container attach <container-id|container-name>
 ```
 
-# Analisando o comando ```docker container exec```
+## Analisando o comando ```docker container exec```
 Roda um comando em um container que já está rodando
 ```
 docker container exec <container-id|container-name> <command>
 ```
 
-# Analisando o comando ```docker container rename```
+## Analisando o comando ```docker container rename```
 Renomear o container
 ```
 docker container rename <container-id|container-name> <new_name>
