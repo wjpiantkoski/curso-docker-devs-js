@@ -85,3 +85,9 @@ Voltar a interagir com container que está em background
 docker container attach <container-id|container-name>
 ```
 
+# Analisando o comando ```docker container exec```
+Roda um comando em um container que já está rodando
+
+```
+docker container exec <container-id|container-name> <command>
+```
