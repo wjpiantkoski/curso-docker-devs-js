@@ -96,3 +96,14 @@ Renomear o container
 ```
 docker container rename <container-id|container-name> <new_name>
 ```
+
+## Conhecendo mais alguns comandos
+Remover todos os containers parados
+```
+docker container prune
+```
+
+Remover uma ou mais imagens
+```
+docker rmi <image-names>
+```
