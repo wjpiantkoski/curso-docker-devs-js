@@ -128,3 +128,14 @@ docker image history <options> <image>
 ```
 ![Image history](/modulo-01/assets/screenshots/01-aula17.png)
 
+# Teste de portas, formatos e SSH
+Imagem utilizada durante a aula
+```
+docker pull rastasheep/ubuntu-sshd
+```
+Inicializar container a partir da imagem acima, usando a opção ```-P``` para que o container busque por uma porta disponível automáticamente
+```
+docker container rum -d -P rastasheep/ubuntu-sshd
+```
+![Lista de imagens](/modulo-01/assets/screenshots/01-aula18.png)
+
