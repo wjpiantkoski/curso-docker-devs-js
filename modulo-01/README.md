@@ -11,3 +11,11 @@
 - Container é a instância da imagem rodando como um processo.
 
 É possível que vários containers sejam iniciados a partir de uma única imagem.
+
+# Rodando o primeiro container
+```
+docker run -p 8080:80 nginx
+```
+
+## Resultado
+![Primeiro container](/modulo-01/assets/screenshots/01-aula07.png)
