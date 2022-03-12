@@ -122,3 +122,9 @@ Inicializar um container com volume personalizado
 docker container run -v <path-no-host>:<path-no-container> <image>
 ```
 
+# Camadas de uma imagem
+```
+docker image history <options> <image>
+```
+![Image history](/modulo-01/assets/screenshots/01-aula17.png)
+
