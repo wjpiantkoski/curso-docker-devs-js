@@ -19,3 +19,37 @@ docker run -p 8080:80 nginx
 
 ## Resultado
 ![Primeiro container](/modulo-01/assets/screenshots/01-aula07.png)
+
+# Docker CLI
+Sintaxe padrão
+```
+docker <command> <sub-command> (options)
+```
+
+Rodar um container a partir de uma imagem
+```
+docker run <image>
+```
+
+Rodar um container em background
+```
+docker run -d <image>
+```
+
+Listar containers em execução
+```
+docker container ls
+```
+
+Listar todos os containers
+```
+docker container ls -a
+```
+
+Executar um comando para um container específico
+```
+docker container <command> <container-id>
+```
+```
+docker container <command> <container-name>
+```
