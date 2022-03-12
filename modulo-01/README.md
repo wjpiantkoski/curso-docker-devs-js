@@ -107,3 +107,11 @@ Remover uma ou mais imagens
 ```
 docker rmi <image-names>
 ```
+
+# Volumes
+Persistência de dados fora do container.
+
+Inicializar um container com volume personalizado
+```
+docker container run -v <path-no-host>:<path-no-container> <image>
+```
