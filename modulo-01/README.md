@@ -139,3 +139,30 @@ docker container rum -d -P rastasheep/ubuntu-sshd
 ```
 ![Lista de imagens](/modulo-01/assets/screenshots/01-aula18.png)
 
+# Docker network
+Rede própria do docker que trabalhará de forma agnóstica ao SO.
+- bridge (default)
+- host
+- overlay
+
+Listar todas as redes ativas
+```
+docker network ls
+```
+
+Listar detalhes de uma determinada rede
+```
+docker network inspect <network-name>
+```
+
+Adicionar container a uma rede
+```
+docker network connect <network-name> <container>
+```
+
+Remover container de uma rede
+```
+docker network disconnect <network-name> <container>
+```
+
+  
