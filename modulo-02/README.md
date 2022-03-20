@@ -18,3 +18,9 @@ Para gerar a imagem, deve-se utilizar o comando ```docker build```
 ```
 docker build <options> <dockerfile-path>
 ```
+
+### COPY
+Copia arquivos do host para dentro da imagem.
+
+### ADD
+Copia arquivos do host ou a partir de uma URL para dentro da imagem.
