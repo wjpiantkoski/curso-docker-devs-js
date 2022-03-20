@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM sapk/cloud9:latest
 
 LABEL mantainer="Willian Piantkoski"
 
