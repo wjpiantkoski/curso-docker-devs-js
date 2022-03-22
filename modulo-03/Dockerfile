@@ -4,7 +4,7 @@ FROM ubuntu:18.04
 RUN apt-get update
 
 # configura o SSH
-RUN apt-get install -y openssh-server vim curl
+RUN apt-get install -y openssh-server vim curl git sudo
 RUN mkdir /var/run/sshd
 
 RUN echo 'root:root' |chpasswd
